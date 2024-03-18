@@ -1,7 +1,8 @@
 # foodapp
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
+A [re-frame](https://github.com/day8/re-frame) framework based implementation of the Recipe app practice exercise. (from React JS Tutorial For Beginners 2024 from youtube by Code Stoic)
+This is exercise allowed me to compare the coding philosopy of mordern reactjs (2024) that uses hooks with the coding philosophy of reframe. A clojurescript framework that uses react as 
+view layer.
 
 ## Getting Started
 
