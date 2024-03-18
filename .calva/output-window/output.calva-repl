@@ -1,0 +1,1165 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\nyemi\Documents\react\myproject2\foodapp & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.69s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.81s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.41s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.44s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.41s)
+
+; 
+
+; ------ WARNING #1 - :fn-arity --------------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:13
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             (map )
+
+; -------------------^------------------------------------------------------------
+
+;  Wrong number of args (0) passed to cljs.core/map
+
+; --------------------------------------------------------------------------------
+
+;   67 | 
+;   68 |           [:h2 "Instructions"] 
+;   69 |       
+;   70 |        [:div.recipeInstructions 
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.34s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.36s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.40s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.35s)
+
+; 
+
+; ------ WARNING #1 - :fn-arity --------------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:31
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             (map (fn [item])  (:extendedIngredients))
+
+; -------------------------------------^------------------------------------------
+
+;  Wrong number of args (0) passed to :extendedIngredients
+
+; --------------------------------------------------------------------------------
+
+;   67 | 
+;   68 |           [:h2 "Instructions"] 
+;   69 |       
+;   70 |        [:div.recipeInstructions 
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.34s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.33s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.30s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.57s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.35s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.43s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.27s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.38s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.36s)
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:67:35
+; --------------------------------------------------------------------------------
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+;   66 |             (map (fn [item]
+;   67 |                      [:div [:h3 (:)]]
+; -----------------------------------------^--------------------------------------
+; foodapp/components/fooddetail/views.cljs [line 67, col 35] Invalid keyword: :.
+; 
+; --------------------------------------------------------------------------------
+;   68 |                    ) 
+;   69 |                  (:extendedIngredients food)
+;   70 |                  )
+;   71 |            
+; --------------------------------------------------------------------------------
+; 
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 1 compiled, 0 warnings, 0.34s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.46s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.66s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 50.48s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 42.24s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 46.00s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 42.79s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.96s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.39s)
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:72:28
+; --------------------------------------------------------------------------------
+;   69 |                              ;   :key (:id item)
+;   70 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+;   71 |                                 } 
+;   72 |                           ]
+; ----------------------------------^---------------------------------------------
+; foodapp/components/fooddetail/views.cljs [line 72, col 28] Metadata cannot be [:img {...}]. Metadata must be a Symbol, Keyword, String or Map.
+; 
+; --------------------------------------------------------------------------------
+;   73 |                          [:h3 (:name item)]
+;   74 |                          
+;   75 |                       ]
+;   76 |                    ) 
+; ---------------------------------------
+; -----------------------------------------
+; 
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 1 compiled, 0 warnings, 0.27s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.27s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.34s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.33s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.33s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.39s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 3.75s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.64s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.27s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.34s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.31s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.25s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.31s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.81s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.30s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.38s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.41s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.28s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.54s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.36s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 3.80s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:14
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.57s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:14
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             [foodapp.components.itemlist.view]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/foodapp
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 2 warnings, 0.29s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:33
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             ^{:key (:id item)} [foodapp.components.itemlist.view]
+
+; ---------------------------------------^----------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/foodapp
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:25
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             ^{:key (:id item)} [foodapp.components.itemlist.view]
+
+; -------------------------------^------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/item
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.73s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:14
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             [foodapp.components.itemlist.view]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/foodapp
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 0 warnings, 0.42s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.28s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:14
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.23s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:66:14
+
+; --------------------------------------------------------------------------------
+
+;   63 |       
+;   64 |            [:h2 "Ingredients"] 
+;   65 |       
+
+;   66 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   67 |            
+;   68 | 
+;   69 |           [:h2 "Instructions"] 
+;   70 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 3 compiled, 3 warnings, 0.31s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:67:14
+
+; --------------------------------------------------------------------------------
+
+;   64 |       
+;   65 |            [:h2 "Ingredients"] 
+;   66 |       
+
+;   67 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   68 |            
+;   69 | 
+;   70 |           [:h2 "Instructions"] 
+;   71 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (346 files, 2 compiled, 1 warnings, 0.28s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:67:14
+
+; --------------------------------------------------------------------------------
+
+;   64 |       
+;   65 |            [:h2 "Ingredients"] 
+;   66 |       
+
+;   67 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   68 |            
+;   69 | 
+;   70 |           [:h2 "Instructions"] 
+;   71 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 3 warnings, 0.31s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:67:14
+
+; --------------------------------------------------------------------------------
+
+;   64 |       
+;   65 |            [:h2 "Ingredients"] 
+;   66 |       
+
+;   67 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   68 |            
+;   69 | 
+;   70 |           [:h2 "Instructions"] 
+;   71 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:1:1
+; --------------------------------------------------------------------------------
+; 
+;    1 | (ns foodapp.components.fooddetail.views
+; -------^------------------------------------------------------------------------
+; null
+; Invalid namespace declaration
+; -- Syntax error -------------------
+; 
+;   (... ... (:require
+;             [re-frame.core :as re-frame :refer [subscribe dispatch]]
+;             [foodapp.components.fooddetail.subs :as food-subs]
+;             [foodapp.components.itemlist.view :as]
+;             [clojure.string :as str]))
+;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+; 
+; has extra input
+; 
+; -- Relevant specs -------
+; 
+; :shadow.build.ns-form/ns-form:
+;   (clojure.spec.alpha/cat
+;    :ns
+;    '#{clojure.core/ns}
+;    :name
+;    clojure.core/simple-symbol?
+;    :docstring
+;    (clojure.spec.alpha/? clojure.core/string?)
+;    
+; :meta
+;    (clojure.spec.alpha/? clojure.core/map?)
+;    :clauses
+;    :shadow.build.ns-form/ns-clauses)
+; 
+; -------------------------
+; Detected 1 error
+; 
+; --------------------------------------------------------------------------------
+;    2 |    (:require 
+;    3 |       [re-frame.core :as re-frame :refer [subscribe dispatch]]
+;    4 |       [foodapp.components.fooddetail.subs :as food-subs]
+;    5 |     ;  [foodapp.components.fooddetail.events :as events]
+; --------------------------------------------------------------------------------
+; 
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:6:41
+; --------------------------------------------------------------------------------
+;    3 |       [re-frame.core :as re-frame :refer [subscribe dispatch]]
+;    4 |       [foodapp.components.fooddetail.subs :as food-subs]
+;    5 |     ;  [foodapp.components.fooddetail.events :as events]
+;    6 |      [foodapp.components.itemlist.view :]
+; -----------------------------------------------^--------------------------------
+; foodapp/components/fooddetail/views.cljs [line 6, col 41] Invalid keyword: :.
+; 
+; --------------------------------------------------------------------------------
+;    7 |       [clojure.string :as str]
+;    8 |             )
+;    9 |   )
+;   10 | 
+; --------------------------------------------------------------------------------
+; 
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 1 compiled, 3 warnings, 0.21s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #3 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\fooddetail\views.cljs:67:14
+
+; --------------------------------------------------------------------------------
+
+;   64 |       
+;   65 |            [:h2 "Ingredients"] 
+;   66 |       
+
+;   67 |             [itemlist]
+
+; --------------------^-----------------------------------------------------------
+
+;  Use of undeclared Var foodapp.components.fooddetail.views/itemlist
+
+; --------------------------------------------------------------------------------
+
+;   68 |            
+;   69 | 
+;   70 |           [:h2 "Instructions"] 
+;   71 |       
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 2 warnings, 0.31s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 2 warnings, 0.27s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:11:39
+
+; --------------------------------------------------------------------------------
+
+;    8 |                     ;  ^{:key (:id item)}
+;    9 |                       [:img {
+;   10 |                                
+
+;   11 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   12 |                                 } 
+;   13 |                           ]
+;   14 |                          [:h3 (:name item)] 
+;   15 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 2 warnings, 0.25s)
+
+; 
+
+; ------ WARNING #1 - :undeclared-ns ---------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:12:39
+
+; --------------------------------------------------------------------------------
+
+;    9 |                     ;  ^{:key (:id item)}
+;   10 |                       [:img {
+;   11 |                                
+
+;   12 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  No such namespace: str, could not locate str.cljs, str.cljc, or JavaScript source providing "str"
+
+; --------------------------------------------------------------------------------
+
+;   13 |                                 } 
+;   14 |                           ]
+;   15 |                          [:h3 (:name item)] 
+;   16 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; 
+
+; ------ WARNING #2 - :undeclared-var --------------------------------------------
+
+;  File: C:\Users\nyemi\Documents\react\myproject2\foodapp\src\foodapp\components\itemlist\view.cljs:12:39
+
+; --------------------------------------------------------------------------------
+
+;    9 |                     ;  ^{:key (:id item)}
+;   10 |                       [:img {
+;   11 |                                
+
+;   12 |                                 :src (str/join "" ["https://spoonacular.com/cdn/ingredients_100x100/" (:image item)])
+
+; ---------------------------------------------^----------------------------------
+
+;  Use of undeclared Var str/join
+
+; --------------------------------------------------------------------------------
+
+;   13 |                                 } 
+;   14 |                           ]
+;   15 |                          [:h3 (:name item)] 
+;   16 |                          [:h3 (:amount item) " " (:unit item)]
+
+; --------------------------------------------------------------------------------
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.30s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.28s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.28s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.40s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.24s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.25s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.47s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.26s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.26s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.41s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.36s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.25s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (347 files, 2 compiled, 0 warnings, 0.55s)
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; The required namespace "foodapp.components.itemlist.view" is not available, it was required by "foodapp/components/fooddetail/views.cljs".
+; 
+
+; [:app] Compiling ...
+
+; [:app] Build failure:
+
+; Resource does not have expected namespace
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (348 files, 6 compiled, 0 warnings, 0.70s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (348 files, 2 compiled, 0 warnings, 0.44s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (348 files, 2 compiled, 0 warnings, 0.24s)
+
+; [:app] Compiling ...
+
+; [:app] Build completed. (348 files, 2 compiled, 0 warnings, 0.30s)
+
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
